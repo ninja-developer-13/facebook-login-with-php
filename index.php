@@ -53,7 +53,7 @@ else
  // Get login url
     $facebook_permissions = ['email']; // Optional permissions
 
-    $facebook_login_url = $facebook_helper->getLoginUrl('https://greenhouses-pro.co.uk/demo/', $facebook_permissions);
+    $facebook_login_url = $facebook_helper->getLoginUrl('https://prabaweb.in/fb-login-php/', $facebook_permissions);
     
     // Render Facebook login button
     $facebook_login_url = '<div align="center"><a href="'.$facebook_login_url.'"><img src="image/fb.png" /></a></div>';
@@ -65,7 +65,7 @@ else
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>PHP Login using Google Account</title>
+  <title>PHP Login using Facebook Account</title>
   <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
